@@ -4,22 +4,22 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>E:/VisualStudio/Projects/semestr2/Game/222/The_Rotting_MVC/Content/ammo_box_texture.png</File>
-    <File>E:/VisualStudio/Projects/semestr2/Game/222/The_Rotting_MVC/Content/background.png</File>
-    <File>E:/VisualStudio/Projects/semestr2/Game/222/The_Rotting_MVC/Content/bullet.png</File>
-    <File>E:/VisualStudio/Projects/semestr2/Game/222/The_Rotting_MVC/Content/crosshair.png</File>
-    <File>E:/VisualStudio/Projects/semestr2/Game/222/The_Rotting_MVC/Content/debug.png</File>
-    <File>E:/VisualStudio/Projects/semestr2/Game/222/The_Rotting_MVC/Content/entityBox.png</File>
-    <File>E:/VisualStudio/Projects/semestr2/Game/222/The_Rotting_MVC/Content/HP_BG.png</File>
-    <File>E:/VisualStudio/Projects/semestr2/Game/222/The_Rotting_MVC/Content/HP_FRONT.png</File>
-    <File>E:/VisualStudio/Projects/semestr2/Game/222/The_Rotting_MVC/Content/menuBackground.png</File>
-    <File>E:/VisualStudio/Projects/semestr2/Game/222/The_Rotting_MVC/Content/plane.png</File>
-    <File>E:/VisualStudio/Projects/semestr2/Game/222/The_Rotting_MVC/Content/root.png</File>
-    <File>E:/VisualStudio/Projects/semestr2/Game/222/The_Rotting_MVC/Content/skeleton-move_0.png</File>
-    <File>E:/VisualStudio/Projects/semestr2/Game/222/The_Rotting_MVC/Content/Solider_AK.png</File>
-    <File>E:/VisualStudio/Projects/semestr2/Game/222/The_Rotting_MVC/Content/zombibobr.png</File>
-    <File>E:/VisualStudio/Projects/semestr2/Game/222/The_Rotting_MVC/Content/zombibobr228.png</File>
-    <File>E:/VisualStudio/Projects/semestr2/Game/222/The_Rotting_MVC/Content/ZombieWalk.png</File>
+    <File>E:/VisualStudio/Projects/semestr2/Game/222/CSharp_Game_MVC/The_Rotting_MVC/Content/ammo_box_texture.png</File>
+    <File>E:/VisualStudio/Projects/semestr2/Game/222/CSharp_Game_MVC/The_Rotting_MVC/Content/background.png</File>
+    <File>E:/VisualStudio/Projects/semestr2/Game/222/CSharp_Game_MVC/The_Rotting_MVC/Content/bullet.png</File>
+    <File>E:/VisualStudio/Projects/semestr2/Game/222/CSharp_Game_MVC/The_Rotting_MVC/Content/crosshair.png</File>
+    <File>E:/VisualStudio/Projects/semestr2/Game/222/CSharp_Game_MVC/The_Rotting_MVC/Content/debug.png</File>
+    <File>E:/VisualStudio/Projects/semestr2/Game/222/CSharp_Game_MVC/The_Rotting_MVC/Content/entityBox.png</File>
+    <File>E:/VisualStudio/Projects/semestr2/Game/222/CSharp_Game_MVC/The_Rotting_MVC/Content/HP_BG.png</File>
+    <File>E:/VisualStudio/Projects/semestr2/Game/222/CSharp_Game_MVC/The_Rotting_MVC/Content/HP_FRONT.png</File>
+    <File>E:/VisualStudio/Projects/semestr2/Game/222/CSharp_Game_MVC/The_Rotting_MVC/Content/menuBackground.png</File>
+    <File>E:/VisualStudio/Projects/semestr2/Game/222/CSharp_Game_MVC/The_Rotting_MVC/Content/plane.png</File>
+    <File>E:/VisualStudio/Projects/semestr2/Game/222/CSharp_Game_MVC/The_Rotting_MVC/Content/root.png</File>
+    <File>E:/VisualStudio/Projects/semestr2/Game/222/CSharp_Game_MVC/The_Rotting_MVC/Content/skeleton-move_0.png</File>
+    <File>E:/VisualStudio/Projects/semestr2/Game/222/CSharp_Game_MVC/The_Rotting_MVC/Content/Solider_AK.png</File>
+    <File>E:/VisualStudio/Projects/semestr2/Game/222/CSharp_Game_MVC/The_Rotting_MVC/Content/zombibobr.png</File>
+    <File>E:/VisualStudio/Projects/semestr2/Game/222/CSharp_Game_MVC/The_Rotting_MVC/Content/zombibobr228.png</File>
+    <File>E:/VisualStudio/Projects/semestr2/Game/222/CSharp_Game_MVC/The_Rotting_MVC/Content/ZombieWalk.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

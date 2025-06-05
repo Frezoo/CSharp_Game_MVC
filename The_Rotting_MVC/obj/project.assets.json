@@ -4164,11 +4164,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\VisualStudio\\Projects\\semestr2\\Game\\222\\The_Rotting_MVC\\The_Rotting_MVC.csproj",
-      "projectName": "The_Rotting_MVC",
-      "projectPath": "E:\\VisualStudio\\Projects\\semestr2\\Game\\222\\The_Rotting_MVC\\The_Rotting_MVC.csproj",
+      "projectUniqueName": "E:\\VisualStudio\\Projects\\semestr2\\Game\\222\\CSharp_Game_MVC\\The_Rotting_MVC\\The Rotting MVC.csproj",
+      "projectName": "The Rotting MVC",
+      "projectPath": "E:\\VisualStudio\\Projects\\semestr2\\Game\\222\\CSharp_Game_MVC\\The_Rotting_MVC\\The Rotting MVC.csproj",
       "packagesPath": "C:\\Users\\-accept\\.nuget\\packages\\",
-      "outputPath": "E:\\VisualStudio\\Projects\\semestr2\\Game\\222\\The_Rotting_MVC\\obj\\",
+      "outputPath": "E:\\VisualStudio\\Projects\\semestr2\\Game\\222\\CSharp_Game_MVC\\The_Rotting_MVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

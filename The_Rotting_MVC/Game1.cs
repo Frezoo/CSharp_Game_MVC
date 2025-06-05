@@ -144,7 +144,7 @@ namespace The_Rotting_MVC
             {
                 boxCount++;
 
-                var box = new EntityModel(new Vector2(100, 100), new Vector2(_boxTexture.Width, _boxTexture.Height), true);
+                var box = new EntityModel(new Vector2(400, 400), new Vector2(_boxTexture.Width, _boxTexture.Height), true);
                 _boxes.Add(box);
                 _boxViews.Add(new EntityView(box,_boxTexture));
                 _views.Add(_boxViews.Last());
@@ -175,7 +175,7 @@ namespace The_Rotting_MVC
 
                     _playerModel.UpdateTimers(deltaTime);
                     _ammoHandler.UpdateTimers(deltaTime);
-                    _zombieSpanwer.Update();
+                    //_zombieSpanwer.Update();
                     _planeModel.Update(deltaTime);
                     _inputHandler.Update(gameTime, Matrix.Identity);
 
@@ -220,8 +220,9 @@ namespace The_Rotting_MVC
                     _spriteBatch.Draw(_crosshair, _inputHandler.GetMouseWorldPosition(Matrix.Identity), null, Color.White, 0, new Vector2(_crosshair.Width / 2, _crosshair.Height / 2), CrosshairScale, SpriteEffects.None, 0);
                     _spriteBatch.DrawString(_font, $"Wave: {_zombieSpanwer.Wave}", new Vector2(ScreenWidth / 2 - 30, 25), Color.Red);
 
-                    foreach (var drawable in _views)
+                    foreach (var drawable in _views.OrderBy(d => d.Layer))
                         drawable.Draw(_spriteBatch);
+                 
 
                     break;
             }

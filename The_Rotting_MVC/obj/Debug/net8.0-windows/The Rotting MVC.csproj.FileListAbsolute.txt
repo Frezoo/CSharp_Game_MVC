@@ -1,0 +1,46 @@
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\bin\Debug\net8.0-windows\Content\font.xnb
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\bin\Debug\net8.0-windows\Content\zombi.xnb
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\bin\Debug\net8.0-windows\Content\zombibobr228.png
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\bin\Debug\net8.0-windows\Content\ammo_box_texture.xnb
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\bin\Debug\net8.0-windows\Content\background.xnb
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\bin\Debug\net8.0-windows\Content\bullet.xnb
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\bin\Debug\net8.0-windows\Content\crosshair.xnb
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\bin\Debug\net8.0-windows\Content\debug.xnb
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\bin\Debug\net8.0-windows\Content\entityBox.xnb
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\bin\Debug\net8.0-windows\Content\HP_BG.xnb
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\bin\Debug\net8.0-windows\Content\HP_FRONT.xnb
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\bin\Debug\net8.0-windows\Content\menuBackground.xnb
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\bin\Debug\net8.0-windows\Content\plane.xnb
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\bin\Debug\net8.0-windows\Content\root.xnb
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\bin\Debug\net8.0-windows\Content\skeleton-move_0.xnb
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\bin\Debug\net8.0-windows\Content\Solider_AK.xnb
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\bin\Debug\net8.0-windows\Content\zombibobr.xnb
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\bin\Debug\net8.0-windows\Content\zombibobr228.xnb
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\bin\Debug\net8.0-windows\Content\ZombieWalk.xnb
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\bin\Debug\net8.0-windows\The Rotting MVC.exe
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\bin\Debug\net8.0-windows\The Rotting MVC.deps.json
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\bin\Debug\net8.0-windows\The Rotting MVC.runtimeconfig.json
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\bin\Debug\net8.0-windows\The Rotting MVC.dll
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\bin\Debug\net8.0-windows\The Rotting MVC.pdb
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\bin\Debug\net8.0-windows\MonoGame.Framework.dll
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\bin\Debug\net8.0-windows\SharpDX.dll
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\bin\Debug\net8.0-windows\SharpDX.Direct2D1.dll
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\bin\Debug\net8.0-windows\SharpDX.Direct3D11.dll
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\bin\Debug\net8.0-windows\SharpDX.Direct3D9.dll
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\bin\Debug\net8.0-windows\SharpDX.DXGI.dll
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\bin\Debug\net8.0-windows\SharpDX.Mathematics.dll
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\bin\Debug\net8.0-windows\SharpDX.MediaFoundation.dll
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\bin\Debug\net8.0-windows\SharpDX.XAudio2.dll
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\bin\Debug\net8.0-windows\SharpDX.XInput.dll
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\obj\Debug\net8.0-windows\The Rotting MVC.csproj.AssemblyReference.cache
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\obj\Debug\net8.0-windows\The Rotting MVC.GeneratedMSBuildEditorConfig.editorconfig
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\obj\Debug\net8.0-windows\The Rotting MVC.AssemblyInfoInputs.cache
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\obj\Debug\net8.0-windows\The Rotting MVC.AssemblyInfo.cs
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\obj\Debug\net8.0-windows\The Rotting MVC.csproj.CoreCompileInputs.cache
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\obj\Debug\net8.0-windows\The Rotting MVC.sourcelink.json
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\obj\Debug\net8.0-windows\The Rott.88168CDF.Up2Date
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\obj\Debug\net8.0-windows\The Rotting MVC.dll
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\obj\Debug\net8.0-windows\refint\The Rotting MVC.dll
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\obj\Debug\net8.0-windows\The Rotting MVC.pdb
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\obj\Debug\net8.0-windows\The Rotting MVC.genruntimeconfig.cache
+E:\VisualStudio\Projects\semestr2\Game\222\CSharp_Game_MVC\The_Rotting_MVC\obj\Debug\net8.0-windows\ref\The Rotting MVC.dll

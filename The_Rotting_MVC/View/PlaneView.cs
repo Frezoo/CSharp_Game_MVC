@@ -9,6 +9,7 @@ namespace The_Rotting_MVC.View
         private Texture2D _texture;
         private PlaneModel _model;
 
+        int The_Rotting_MVC.View.IDrawable.Layer => 9;
         public PlaneView(Texture2D texture, PlaneModel model)
         {
             _texture = texture;

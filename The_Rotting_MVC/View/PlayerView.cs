@@ -18,6 +18,8 @@ namespace The_Rotting_MVC.View
 
         private PlayerModel player;
 
+        int The_Rotting_MVC.View.IDrawable.Layer => 1;
+
         public PlayerView(Texture2D texture, SpriteFont font, HealthBar healthBar,PlayerModel player)
         {
             //_spriteBatch = spriteBatch;
@@ -32,7 +34,7 @@ namespace The_Rotting_MVC.View
 
         public void Draw(SpriteBatch _spriteBatch)
         {
-            _spriteBatch.Draw(_texture, player.Position, null, _color, player.Rotation, _origin, _scale, SpriteEffects.None, 0);
+            _spriteBatch.Draw(_texture, player.Position, null, _color, player.Rotation, _origin, _scale, SpriteEffects.None, 0.6f);
             DrawStatistic(_spriteBatch);
         }
 

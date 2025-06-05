@@ -35,6 +35,7 @@ namespace The_Rotting_MVC.View
 
 
         private Rectangle[] _sourceRectangles;
+        int The_Rotting_MVC.View.IDrawable.Layer => 1;
 
         public ZombieView(ZombieModel zombieModel,Texture2D texture)
         {
@@ -114,7 +115,7 @@ namespace The_Rotting_MVC.View
             Origin,
             Scale,
             SpriteEffects.None,
-            0f
+            0.6f
             );
         }
 

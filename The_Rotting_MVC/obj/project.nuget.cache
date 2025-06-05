@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MvXApO5N8oY=",
+  "dgSpecHash": "AW1VRZ/AIHQ=",
   "success": true,
-  "projectFilePath": "E:\\VisualStudio\\Projects\\semestr2\\Game\\222\\The_Rotting_MVC\\The_Rotting_MVC.csproj",
+  "projectFilePath": "E:\\VisualStudio\\Projects\\semestr2\\Game\\222\\CSharp_Game_MVC\\The_Rotting_MVC\\The Rotting MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\-accept\\.nuget\\packages\\microsoft.netcore.app\\2.1.30\\microsoft.netcore.app.2.1.30.nupkg.sha512",
     "C:\\Users\\-accept\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.1.30\\microsoft.netcore.dotnetapphost.2.1.30.nupkg.sha512",

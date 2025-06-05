@@ -17,6 +17,8 @@ namespace The_Rotting_MVC.View
         private const float _size = 0.07f;
         private Vector2 _origin;
 
+        int The_Rotting_MVC.View.IDrawable.Layer => 6;
+
         public EntityView(EntityModel entity, Texture2D texture)
         {                                   
             _entity = entity;
@@ -26,7 +28,7 @@ namespace The_Rotting_MVC.View
 
         public void Draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.Draw(_texture, _entity.Position, null, Color.White, 0, _origin, _size, SpriteEffects.None, 0);
+            spriteBatch.Draw(_texture, _entity.Position, null, Color.White, 0, _origin, _size, SpriteEffects.None, 0.1f);
         }
     }
 }

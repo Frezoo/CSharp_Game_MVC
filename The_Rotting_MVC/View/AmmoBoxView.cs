@@ -24,9 +24,13 @@ namespace The_Rotting_MVC.View
             _boxModel = boxModel;
         }
 
+
+
+        int IDrawable.Layer => 6;
+
         public void Draw(SpriteBatch _sb)
         {
-            _sb.Draw(_texture, _boxModel.Position, null, Color.White, 0, Vector2.Zero, _scale, SpriteEffects.None, 0f);
+            _sb.Draw(_texture, _boxModel.Position, null, Color.White, 0, Vector2.Zero, _scale, SpriteEffects.None, 0.8f);
 
         }
     }
