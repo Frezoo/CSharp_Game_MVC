@@ -1,0 +1,3 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"E:/VisualStudio/Projects/semestr2/Game/222/The_Rotting_MVC/Content/ammo_box_texture.png","E:/VisualStudio/Projects/semestr2/Game/222/The_Rotting_MVC/Content/bin/Windows/ammo_box_texture.xnb","TextureProcessor","Texture2DContent",51490,2371285,0,1636271
+"E:/VisualStudio/Projects/semestr2/Game/222/The_Rotting_MVC/Content/entityBox.png","E:/VisualStudio/Projects/semestr2/Game/222/The_Rotting_MVC/Content/bin/Windows/entityBox.xnb","TextureProcessor","Texture2DContent",10139,2560085,0,0559715

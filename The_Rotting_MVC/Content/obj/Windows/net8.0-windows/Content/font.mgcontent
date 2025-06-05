@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>E:/VisualStudio/Projects/semestr2/Game/The Rotting MVC/Content/font.spritefont</SourceFile>
+  <SourceTime>2025-02-23T16:42:58.6141417+05:00</SourceTime>
+  <DestFile>E:/VisualStudio/Projects/semestr2/Game/The Rotting MVC/Content/bin/Windows/Content/font.xnb</DestFile>
+  <DestTime>2025-05-12T14:02:45.1048814+05:00</DestTime>
+  <Importer>FontDescriptionImporter</Importer>
+  <ImporterTime>2024-08-16T22:05:56+05:00</ImporterTime>
+  <Processor>FontDescriptionProcessor</Processor>
+  <ProcessorTime>2024-08-16T22:05:56+05:00</ProcessorTime>
+  <Parameters>
+    <Key>PremultiplyAlpha</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Compressed</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>
