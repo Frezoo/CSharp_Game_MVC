@@ -20,6 +20,7 @@ namespace The_Rotting_MVC
         private PlayerModel _playerModel;
         private AmmoHandler _ammoHandler;
         private ZombieSpawner _zombieSpanwer;
+        private EntitySpawner _entitySpawner;
         private PlaneModel _planeModel;
         private List<EntityModel> _boxes = new List<EntityModel>();
 
@@ -28,7 +29,6 @@ namespace The_Rotting_MVC
 
         private PlayerView _playerView;
         private BulletView _bulletView;
-        private AmmoBoxView _ammoView;
         private PlaneView _planeView;
         private List<EntityView> _boxViews = new List<EntityView>();
 
@@ -39,7 +39,8 @@ namespace The_Rotting_MVC
         private SpriteFont _font;
 
         private GameState _currentGameState = GameState.MainMenu;
-        public List<View.IDrawable> _views = new();
+
+        public SceneRenderer SceneRenderer = new SceneRenderer();
 
         private MainMenu _mainMenu;
 
@@ -83,12 +84,6 @@ namespace The_Rotting_MVC
             base.Initialize();
         }
 
-        private void InitializeDrawables()
-        {
-            _views.Add(_playerView);
-            _views.Add(_planeView);    
-            _views.Add(_bulletView);
-        }
 
 
 
@@ -108,10 +103,11 @@ namespace The_Rotting_MVC
             InitializeViews(playerTexture, bulleteTexture, ammoTexture, planeTexture, font, healthBar);
           
             _zombieSpanwer.SetZombieTexture(zombieWalkTexture);
+            _entitySpawner.SetEntityTexture(_boxTexture);
 
             _bulletController = new BulletController(_playerModel.Bullets, _zombieSpanwer.Zombies, _bulletView, _zombieSpanwer.ZombiesViews);
 
-            InitializeDrawables();
+            SceneRenderer.InitializeDrawables(_playerView, _planeView,_bulletView);
             InitializeMenu(menuFont, menuBackground);
         }
 
@@ -144,10 +140,7 @@ namespace The_Rotting_MVC
             {
                 boxCount++;
 
-                var box = new EntityModel(new Vector2(400, 400), new Vector2(_boxTexture.Width, _boxTexture.Height), true);
-                _boxes.Add(box);
-                _boxViews.Add(new EntityView(box,_boxTexture));
-                _views.Add(_boxViews.Last());
+                _entitySpawner.SpawnBoxes(25);
 
             }
 
@@ -175,13 +168,13 @@ namespace The_Rotting_MVC
 
                     _playerModel.UpdateTimers(deltaTime);
                     _ammoHandler.UpdateTimers(deltaTime);
-                    //_zombieSpanwer.Update();
+                    _zombieSpanwer.Update();
                     _planeModel.Update(deltaTime);
                     _inputHandler.Update(gameTime, Matrix.Identity);
 
                     UpdateBullets();
                     UpdateZombies();
-                    foreach(var box in _boxes)
+                    foreach(var box in _entitySpawner.EntityModels)
                     {
                         box.TryPushFromPlayer(_playerModel,650,deltaTime);
                     }
@@ -220,8 +213,7 @@ namespace The_Rotting_MVC
                     _spriteBatch.Draw(_crosshair, _inputHandler.GetMouseWorldPosition(Matrix.Identity), null, Color.White, 0, new Vector2(_crosshair.Width / 2, _crosshair.Height / 2), CrosshairScale, SpriteEffects.None, 0);
                     _spriteBatch.DrawString(_font, $"Wave: {_zombieSpanwer.Wave}", new Vector2(ScreenWidth / 2 - 30, 25), Color.Red);
 
-                    foreach (var drawable in _views.OrderBy(d => d.Layer))
-                        drawable.Draw(_spriteBatch);
+                    SceneRenderer.Draw(_spriteBatch);
                  
 
                     break;
@@ -312,8 +304,9 @@ namespace The_Rotting_MVC
         private void InitializeModels()
         {
             _playerModel = new PlayerModel();
-            _ammoHandler = new AmmoHandler(_views,null);
-            _zombieSpanwer = new ZombieSpawner(_playerModel,_views);
+            _ammoHandler = new AmmoHandler(SceneRenderer.Views,null);
+            _zombieSpanwer = new ZombieSpawner(_playerModel, SceneRenderer.Views);
+            _entitySpawner = new EntitySpawner(ScreenWidth, ScreenHeight, SceneRenderer);
             _planeModel = new PlaneModel(ScreenWidth, ScreenHeight);
         }
 

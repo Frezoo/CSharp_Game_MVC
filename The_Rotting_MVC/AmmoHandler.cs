@@ -17,7 +17,6 @@ namespace The_Rotting_MVC
     public class AmmoHandler
     {
         public float TimeSinceLastSpawn = 0f;
-        float _spawnCooldown = 10f;
         public List<AmmoBoxModel> AmmoBoxes = new List<AmmoBoxModel>();
         public List<AmmoBoxView> AmmoBoxViews = new List<AmmoBoxView>();
         public List<View.IDrawable> Drawables;
@@ -34,8 +33,6 @@ namespace The_Rotting_MVC
         public void SpawnAmmoBox(Vector2 position,int ammoAmount)
         {
             Random random = new Random();
-            //Vector2 position = new Vector2(random.Next(50, 1230), random.Next(50, 670));
-            //int ammoAmount = random.Next(25, 45);
             AmmoBoxes.Add(new AmmoBoxModel(position, ammoAmount));
             AmmoBoxViews.Add(new AmmoBoxView(_ammoBoxTexture, AmmoBoxes.Last()));
             Drawables.Add(AmmoBoxViews.Last());

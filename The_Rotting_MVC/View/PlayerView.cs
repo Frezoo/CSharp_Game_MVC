@@ -7,7 +7,6 @@ namespace The_Rotting_MVC.View
 {
     class PlayerView:IDrawable
     {
-        private SpriteBatch _spriteBatch;
         private Texture2D _texture;
         private SpriteFont _font;
         private HealthBar _healthBar;
@@ -22,7 +21,6 @@ namespace The_Rotting_MVC.View
 
         public PlayerView(Texture2D texture, SpriteFont font, HealthBar healthBar,PlayerModel player)
         {
-            //_spriteBatch = spriteBatch;
             _texture = texture;
             _font = font;
             _healthBar = healthBar;
