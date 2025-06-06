@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("The Rotting MVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff03a33785f3499b300950baae958f9055be6ac6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c1c3d75d827af577bd704b5e87cc605f1f23584a")]
 [assembly: System.Reflection.AssemblyProductAttribute("The Rotting MVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("The Rotting MVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

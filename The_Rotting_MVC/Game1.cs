@@ -57,6 +57,7 @@ namespace The_Rotting_MVC
         private const float CrosshairScale = 0.03f;
         private const int MenuOffsetX = 100;
         private const int MenuOffsetY = 50;
+        private const int CountOfEntity = 7;
 
 
         private Vector2 _pendingAmmoDropPosition;
@@ -102,13 +103,13 @@ namespace The_Rotting_MVC
             HealthBar healthBar = new HealthBar(new Vector2(161.5f, 39), _spriteBatch, Content.Load<Texture2D>("HP_FRONT"), Content.Load<Texture2D>("HP_BG"));
 
             InitializeViews(playerTexture, bulleteTexture, ammoTexture, planeTexture, font, healthBar);
-          
+
             _zombieSpanwer.SetZombieTexture(zombieWalkTexture);
-            _entitySpawner.SetEntityTexture(_boxTexture,_notPushableboxTexture);
+            _entitySpawner.SetEntityTexture(_boxTexture, _notPushableboxTexture);
 
             _bulletController = new BulletController(_playerModel.Bullets, _zombieSpanwer.Zombies, _bulletView, _zombieSpanwer.ZombiesViews);
 
-            SceneRenderer.InitializeDrawables(_playerView, _planeView,_bulletView);
+            SceneRenderer.InitializeDrawables(_playerView, _planeView, _bulletView);
             InitializeMenu(menuFont, menuBackground);
         }
 
@@ -136,14 +137,9 @@ namespace The_Rotting_MVC
             if (_playerModel.Health <= 0)
                 _currentGameState = GameState.MainMenu;
 
-            
-            if (boxCount == 0)
-            {
-                boxCount++;
 
-                _entitySpawner.SpawnBoxes(25);
+            _entitySpawner.SpawnBoxes(CountOfEntity);
 
-            }
 
             switch (_currentGameState)
             {
@@ -175,9 +171,9 @@ namespace The_Rotting_MVC
 
                     UpdateBullets();
                     UpdateZombies();
-                    foreach(var box in _entitySpawner.EntityModels)
+                    foreach (var box in _entitySpawner.EntityModels)
                     {
-                        box.TryPushFromPlayer(_playerModel,650,deltaTime);
+                        box.TryPushFromPlayer(_playerModel, 650, deltaTime);
                     }
 
                     _bulletController.ProcessBullets(deltaTime, ZombieWidth, ZombieHeight);
@@ -215,12 +211,12 @@ namespace The_Rotting_MVC
                     _spriteBatch.DrawString(_font, $"Wave: {_zombieSpanwer.Wave}", new Vector2(ScreenWidth / 2 - 30, 25), Color.Red);
 
                     SceneRenderer.Draw(_spriteBatch);
-                 
+
 
                     break;
             }
 
-            _spriteBatch.End(); 
+            _spriteBatch.End();
 
             base.Draw(gameTime);
         }
@@ -243,7 +239,7 @@ namespace The_Rotting_MVC
             if (_pendingAmmoDrop && _planeModel.DropComplete)
             {
                 int ammoAmount = Random.Shared.Next(AmmoMin, AmmoMax);
-                _ammoHandler.SpawnAmmoBox(_pendingAmmoDropPosition,ammoAmount);
+                _ammoHandler.SpawnAmmoBox(_pendingAmmoDropPosition, ammoAmount);
                 _pendingAmmoDrop = false;
             }
         }
@@ -285,7 +281,7 @@ namespace The_Rotting_MVC
         private void InitializeViews(Texture2D playerTexture, Texture2D bulleteTexture, Texture2D ammoTexture, Texture2D planeTexture, SpriteFont font, HealthBar healthBar)
         {
             _playerView = new PlayerView(playerTexture, font, healthBar, _playerModel);
-            _bulletView = new BulletView(_spriteBatch, bulleteTexture,_playerModel.Bullets);
+            _bulletView = new BulletView(_spriteBatch, bulleteTexture, _playerModel.Bullets);
             _planeView = new PlaneView(planeTexture, _planeModel);
         }
 
@@ -306,7 +302,7 @@ namespace The_Rotting_MVC
         private void InitializeModels()
         {
             _playerModel = new PlayerModel();
-            _ammoHandler = new AmmoHandler(SceneRenderer.Views,null);
+            _ammoHandler = new AmmoHandler(SceneRenderer.Views, null);
             _zombieSpanwer = new ZombieSpawner(_playerModel, SceneRenderer.Views);
             _entitySpawner = new EntitySpawner(ScreenWidth, ScreenHeight, SceneRenderer);
             _planeModel = new PlaneModel(ScreenWidth, ScreenHeight);
@@ -338,6 +334,8 @@ namespace The_Rotting_MVC
             _zombieSpanwer.Wave = 0;
             _zombieSpanwer.Zombies.Clear();
             _zombieSpanwer.ZombiesViews.Clear();
+            SceneRenderer.Views.Clear();
+            SceneRenderer.InitializeDrawables(_playerView, _planeView, _bulletView);
             _planeModel.IsActive = false;
             _planeModel.DropComplete = false;
 

@@ -24,7 +24,7 @@ public class BulletView : The_Rotting_MVC.View.IDrawable
         _sb = spriteBatch;
         _texture = texture;
         _bullets = bullets;
-        _scale = 1f; 
+        _scale = 0.3f; 
     }
 
     public void Draw(SpriteBatch spriteBatch)
