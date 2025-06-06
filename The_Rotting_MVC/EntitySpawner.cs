@@ -21,7 +21,7 @@ namespace The_Rotting_MVC
         List<EntityView> _views = new();
         SceneRenderer _sceneRednerer;
 
-        Texture2D _entityTexture;
+        List<Texture2D> _entityTextures = new();
         public EntitySpawner(int screenWidth, int screenHeight,SceneRenderer sceneRenderer)
         {
             _screenWidth = screenWidth;
@@ -30,9 +30,10 @@ namespace The_Rotting_MVC
       
         }
 
-        public void SetEntityTexture(Texture2D texture)
+        public void SetEntityTexture(params Texture2D[] textures)
         {
-            _entityTexture = texture;
+            foreach (var texture in textures)
+                _entityTextures.Add(texture);
         }
 
         public List<Vector2> SpawnBoxes(int numberOfBoxes)
@@ -62,8 +63,12 @@ namespace The_Rotting_MVC
                 float x = cell.X * _gridSize + _gridSize / 2f;
                 float y = cell.Y * _gridSize + _gridSize / 2f;
                 Vector2 position = new Vector2(x, y);
-                EntityModels.Add(new EntityModel(position, new Vector2(_entityTexture.Width, _entityTexture.Height), true));
-                _views.Add(new EntityView(EntityModels.Last(),_entityTexture));
+                var textureNumber = _random.Next(_entityTextures.Count);
+
+                bool isPushable = textureNumber == 0 ? true : false; 
+
+                EntityModels.Add(new EntityModel(position, new Vector2(_entityTextures[textureNumber].Width, _entityTextures[textureNumber].Height), isPushable));
+                _views.Add(new EntityView(EntityModels.Last(), _entityTextures[textureNumber]));
                 _sceneRednerer.Views.Add(_views.Last());
 
             }

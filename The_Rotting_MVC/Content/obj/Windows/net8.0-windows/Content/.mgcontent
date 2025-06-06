@@ -13,6 +13,7 @@
     <File>E:/VisualStudio/Projects/semestr2/Game/222/CSharp_Game_MVC/The_Rotting_MVC/Content/HP_BG.png</File>
     <File>E:/VisualStudio/Projects/semestr2/Game/222/CSharp_Game_MVC/The_Rotting_MVC/Content/HP_FRONT.png</File>
     <File>E:/VisualStudio/Projects/semestr2/Game/222/CSharp_Game_MVC/The_Rotting_MVC/Content/menuBackground.png</File>
+    <File>E:/VisualStudio/Projects/semestr2/Game/222/CSharp_Game_MVC/The_Rotting_MVC/Content/notPushableBox.jpg</File>
     <File>E:/VisualStudio/Projects/semestr2/Game/222/CSharp_Game_MVC/The_Rotting_MVC/Content/plane.png</File>
     <File>E:/VisualStudio/Projects/semestr2/Game/222/CSharp_Game_MVC/The_Rotting_MVC/Content/root.png</File>
     <File>E:/VisualStudio/Projects/semestr2/Game/222/CSharp_Game_MVC/The_Rotting_MVC/Content/skeleton-move_0.png</File>
@@ -22,6 +23,7 @@
     <File>E:/VisualStudio/Projects/semestr2/Game/222/CSharp_Game_MVC/The_Rotting_MVC/Content/ZombieWalk.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

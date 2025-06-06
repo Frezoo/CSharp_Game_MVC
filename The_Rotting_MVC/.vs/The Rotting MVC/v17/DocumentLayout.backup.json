@@ -11,16 +11,16 @@
       "RelativeMoniker": "D:0:0:{4A591FD2-F792-434B-A039-D68A4215B00D}|The Rotting MVC.csproj|solutionrelative:entityspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A591FD2-F792-434B-A039-D68A4215B00D}|The Rotting MVC.csproj|e:\\visualstudio\\projects\\semestr2\\game\\222\\csharp_game_mvc\\the_rotting_mvc\\ammohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A591FD2-F792-434B-A039-D68A4215B00D}|The Rotting MVC.csproj|solutionrelative:ammohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A591FD2-F792-434B-A039-D68A4215B00D}|The Rotting MVC.csproj|e:\\visualstudio\\projects\\semestr2\\game\\222\\csharp_game_mvc\\the_rotting_mvc\\view\\scenerenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A591FD2-F792-434B-A039-D68A4215B00D}|The Rotting MVC.csproj|solutionrelative:view\\scenerenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A591FD2-F792-434B-A039-D68A4215B00D}|The Rotting MVC.csproj|e:\\visualstudio\\projects\\semestr2\\game\\222\\csharp_game_mvc\\the_rotting_mvc\\view\\playerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A591FD2-F792-434B-A039-D68A4215B00D}|The Rotting MVC.csproj|solutionrelative:view\\playerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A591FD2-F792-434B-A039-D68A4215B00D}|The Rotting MVC.csproj|e:\\visualstudio\\projects\\semestr2\\game\\222\\csharp_game_mvc\\the_rotting_mvc\\view\\scenerenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A591FD2-F792-434B-A039-D68A4215B00D}|The Rotting MVC.csproj|solutionrelative:view\\scenerenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A591FD2-F792-434B-A039-D68A4215B00D}|The Rotting MVC.csproj|e:\\visualstudio\\projects\\semestr2\\game\\222\\csharp_game_mvc\\the_rotting_mvc\\ammohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A591FD2-F792-434B-A039-D68A4215B00D}|The Rotting MVC.csproj|solutionrelative:ammohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A591FD2-F792-434B-A039-D68A4215B00D}|The Rotting MVC.csproj|e:\\visualstudio\\projects\\semestr2\\game\\222\\csharp_game_mvc\\the_rotting_mvc\\view\\entityview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,9 +66,9 @@
               "Title": "Game1.cs",
               "DocumentMoniker": "E:\\VisualStudio\\Projects\\semestr2\\Game\\222\\CSharp_Game_MVC\\The_Rotting_MVC\\Game1.cs",
               "RelativeDocumentMoniker": "Game1.cs",
-              "ToolTip": "E:\\VisualStudio\\Projects\\semestr2\\Game\\222\\CSharp_Game_MVC\\The_Rotting_MVC\\Game1.cs*",
-              "RelativeToolTip": "Game1.cs*",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAvwI4AAAAsAAAAAAAAAA==",
+              "ToolTip": "E:\\VisualStudio\\Projects\\semestr2\\Game\\222\\CSharp_Game_MVC\\The_Rotting_MVC\\Game1.cs",
+              "RelativeToolTip": "Game1.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAnwI4AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-05T18:31:00.086Z",
               "IsPinned": true,
@@ -76,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AmmoHandler.cs",
               "DocumentMoniker": "E:\\VisualStudio\\Projects\\semestr2\\Game\\222\\CSharp_Game_MVC\\The_Rotting_MVC\\AmmoHandler.cs",
               "RelativeDocumentMoniker": "AmmoHandler.cs",
@@ -95,14 +95,14 @@
               "RelativeDocumentMoniker": "EntitySpawner.cs",
               "ToolTip": "E:\\VisualStudio\\Projects\\semestr2\\Game\\222\\CSharp_Game_MVC\\The_Rotting_MVC\\EntitySpawner.cs",
               "RelativeToolTip": "EntitySpawner.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwDoAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-06T07:59:28.876Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "SceneRenderer.cs",
               "DocumentMoniker": "E:\\VisualStudio\\Projects\\semestr2\\Game\\222\\CSharp_Game_MVC\\The_Rotting_MVC\\View\\SceneRenderer.cs",
               "RelativeDocumentMoniker": "View\\SceneRenderer.cs",
@@ -116,18 +116,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AmmoBoxModel.cs",
-              "DocumentMoniker": "E:\\VisualStudio\\Projects\\semestr2\\Game\\222\\CSharp_Game_MVC\\The_Rotting_MVC\\Model\\AmmoBoxModel.cs",
-              "RelativeDocumentMoniker": "Model\\AmmoBoxModel.cs",
-              "ToolTip": "E:\\VisualStudio\\Projects\\semestr2\\Game\\222\\CSharp_Game_MVC\\The_Rotting_MVC\\Model\\AmmoBoxModel.cs",
-              "RelativeToolTip": "Model\\AmmoBoxModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T18:34:44.997Z"
             },
             {
               "$type": "Document",
@@ -185,10 +173,22 @@
               "RelativeDocumentMoniker": "View\\PlayerView.cs",
               "ToolTip": "E:\\VisualStudio\\Projects\\semestr2\\Game\\222\\CSharp_Game_MVC\\The_Rotting_MVC\\View\\PlayerView.cs",
               "RelativeToolTip": "View\\PlayerView.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA5wDEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-05T18:31:56.406Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AmmoBoxModel.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\Projects\\semestr2\\Game\\222\\CSharp_Game_MVC\\The_Rotting_MVC\\Model\\AmmoBoxModel.cs",
+              "RelativeDocumentMoniker": "Model\\AmmoBoxModel.cs",
+              "ToolTip": "E:\\VisualStudio\\Projects\\semestr2\\Game\\222\\CSharp_Game_MVC\\The_Rotting_MVC\\Model\\AmmoBoxModel.cs",
+              "RelativeToolTip": "Model\\AmmoBoxModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T18:34:44.997Z"
             },
             {
               "$type": "Document",

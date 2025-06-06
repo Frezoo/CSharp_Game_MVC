@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>E:/VisualStudio/Projects/semestr2/Game/222/The_Rotting_MVC/Content/Solider_AK.png</SourceFile>
+  <SourceFile>E:/VisualStudio/Projects/semestr2/Game/222/CSharp_Game_MVC/The_Rotting_MVC/Content/Solider_AK.png</SourceFile>
   <SourceTime>2025-02-23T16:18:28.5307953+05:00</SourceTime>
-  <DestFile>E:/VisualStudio/Projects/semestr2/Game/222/The_Rotting_MVC/Content/bin/Windows/Solider_AK.xnb</DestFile>
-  <DestTime>2025-05-17T18:55:49.9008273+05:00</DestTime>
+  <DestFile>E:/VisualStudio/Projects/semestr2/Game/222/CSharp_Game_MVC/The_Rotting_MVC/Content/bin/Windows/Solider_AK.xnb</DestFile>
+  <DestTime>2025-06-06T13:35:44.3480683+05:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2024-08-16T22:05:56+05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

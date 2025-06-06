@@ -36,6 +36,7 @@ namespace The_Rotting_MVC
         private Texture2D _crosshair;
         private Texture2D _background;
         private Texture2D _boxTexture;
+        private Texture2D _notPushableboxTexture;
         private SpriteFont _font;
 
         private GameState _currentGameState = GameState.MainMenu;
@@ -103,7 +104,7 @@ namespace The_Rotting_MVC
             InitializeViews(playerTexture, bulleteTexture, ammoTexture, planeTexture, font, healthBar);
           
             _zombieSpanwer.SetZombieTexture(zombieWalkTexture);
-            _entitySpawner.SetEntityTexture(_boxTexture);
+            _entitySpawner.SetEntityTexture(_boxTexture,_notPushableboxTexture);
 
             _bulletController = new BulletController(_playerModel.Bullets, _zombieSpanwer.Zombies, _bulletView, _zombieSpanwer.ZombiesViews);
 
@@ -299,6 +300,7 @@ namespace The_Rotting_MVC
             _background = Content.Load<Texture2D>("background");
             _crosshair = Content.Load<Texture2D>("crosshair");
             _boxTexture = Content.Load<Texture2D>("entityBox");
+            _notPushableboxTexture = Content.Load<Texture2D>("notPushableBox");
         }
 
         private void InitializeModels()
